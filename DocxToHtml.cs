@@ -12,7 +12,7 @@ namespace OfficeToHtml
         public static void Convert(string absoluteFilePath)
         {
             // The destination file to save must have the extension .html
-            string fileToSave = "D:/Output/convertedFile.html"
+            string fileToSave = @"D:\Output\convertedFile.html"
             Application Word = new Application();
             try
             {
