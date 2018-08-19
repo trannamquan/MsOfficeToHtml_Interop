@@ -39,10 +39,6 @@ namespace OfficeToHtml
             {
                 excel.Application.Quit();
             }
-
-            var virtualHtmlFileUrl = DirectoryHelper.ToVirtualUrl(fileToSave);
-
-            return virtualHtmlFileUrl;
         }
     }
 }
